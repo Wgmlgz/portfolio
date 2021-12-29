@@ -17,7 +17,7 @@ ReactDOM.render(
       <Route
         path="/warehouse"
         render={() => {
-          window.location.href = "/warehouse/index.html";
+          window.location.href = "/Warehouse/index.html";
         }}
       />
       <Route
