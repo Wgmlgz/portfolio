@@ -10,9 +10,12 @@
   src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"
   alt="React.js"
 />
-
+<img
+  src="https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white"
+  alt="Three.js"
+/>
 
 # My personal/portfolio website
 
-Build w/ React.js, TypeScript and Tailwind CSS.
+Build w/ React, TypeScript, Tailwind CSS and Three.js.
 You can view it at https://wgmlgz.github.io/
