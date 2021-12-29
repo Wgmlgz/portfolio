@@ -15,4 +15,4 @@
 # My personal/portfolio website
 
 Build w/ React.js, TypeScript and Tailwind CSS.
-You can view it at https://github.com/Wgmlgz/Wgmlgz.github.io
+You can view it at https://wgmlgz.github.io/
