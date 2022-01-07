@@ -129,3 +129,5 @@ dist
 # build
 build/
 .vscode/
+gh-pages.pub
+gh-pages
