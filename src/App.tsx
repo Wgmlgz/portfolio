@@ -44,7 +44,7 @@ export default function App() {
         <div id="frog" className="grid h-screen">
           <div className="m-auto p-[50px] border-solid border-[5px] rounded-[16px] border-red">
             <p className="text-center font-bold text-primary text-8xl">
-              [ Wgmlgz ]
+              [ Wgmlgz (test) ]
             </p>
             <br />
             <p className="text-center text-secondary text-3xl">
