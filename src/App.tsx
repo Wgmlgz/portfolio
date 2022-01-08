@@ -138,7 +138,7 @@ export default function App() {
               title="Warehouse simulator"
               description="This project is a simulation of the warehouse management. Warehouse sells goods to customers and when there are not enough of them, buys needed packages from factory. Some types of products are also have limited lifetime and when long enough time has passed, they are moved to trash. Simulation is written in C++ and compiled into webassembly, UI uses ReactJs and material-ui components."
               img={WarehouseGif}
-              link="/warehouse"
+              link="/Warehouse"
               badges={badges([MUI_B, REACT_B, CPP_B, WASM_B])}
             />
           </div>
