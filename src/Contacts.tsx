@@ -23,19 +23,21 @@ const Contacts = () => (
     </p>
     <div>
       <Link
-        logo='/images/GitHub-Mark-Light-120px-plus.png'
+        logo={
+          process.env.PUBLIC_URL + '/images/GitHub-Mark-Light-120px-plus.png'
+        }
         title='wgmlgz'
         alt='github'
         href='https://github.com/Wgmlgz'
       />
       <Link
-        logo='/images/TgLogo.png'
+        logo={process.env.PUBLIC_URL + '/images/TgLogo.png'}
         title='@wgmlgz'
         alt='telegram'
         href='https://t.me/Wgmlgz'
       />
       <Link
-        logo='/images/email.svg'
+        logo={process.env.PUBLIC_URL + '/images/email.svg'}
         title='wgmlgz.dev@gmail.comz'
         alt='email'
         href='mailto:wgmlgz.dev@gmail.com'

@@ -80,7 +80,7 @@ export const App: FC = () => {
                     Best projects
                     <br />
                     <img
-                      src='/images/keyboard_arrow_down.svg'
+                      src={process.env.PUBLIC_URL + '/images/keyboard_arrow_down.svg'}
                       className='h-[70px]'
                       alt='KeyboardArrowDownIcon'
                     />
