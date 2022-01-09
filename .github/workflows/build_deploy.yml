@@ -32,5 +32,6 @@ jobs:
           source-directory: 'build'
           destination-github-username: 'wgmlgz'
           destination-repository-name: 'wgmlgz.github.io'
+          target-directory: 'main'
           user-email: wgmlgz.god@gmail.com
           target-branch: gh-pages
