@@ -146,7 +146,7 @@ export default function App() {
               title='Binary search trees visualization 🌳'
               description="Learn more about self-balancing binary search trees, such as Red-Black, AVL, Splay or Treap by exploring the visualization of inserting/removing elements from them. Each tree has its unique coloring based on it's type, like gradient of priorities of treap or Red-Black tree colors. Trees are implemented in C++ (compiled into webassembly) and UI is a web application."
               img={TreesGif}
-              link='/trees'
+              link='https://wgmlgz.github.io/trees/'
               badges={badges([HTML_B, CSS_B, JS_B, CPP_B, WASM_B])}
             />
           </div>
@@ -169,7 +169,7 @@ export default function App() {
               title='Nice fractals'
               description='Explore different beauteafull fractals such as Mandelbrot set, Burning Ship, or fractal tree. This is a web app written in 1 day with vallina Javascript frontend and C++ backend, compiled to webassembly for best performance.'
               img={Mandelbrot}
-              link='/fractals'
+              link='https://wgmlgz.github.io/fractals/'
               badges={badges([HTML_B, CSS_B, JS_B, CPP_B, WASM_B])}
             />
           </div>
@@ -178,7 +178,7 @@ export default function App() {
               title='Planets simulator 🌍'
               description='View the gravity simulation and play with planets parameters such as mass, velocity and position. Main simulation is written in C (compiled into webassembly) because high-level programming languages are too easy. Frontend is a web app, because why not.'
               img={Planets}
-              link='/planets'
+              link='https://wgmlgz.github.io/planets/'
               badges={badges([HTML_B, CSS_B, JS_B, C_B, WASM_B])}
             />
           </div>
@@ -187,7 +187,7 @@ export default function App() {
               title='Graph plotter 📈'
               description='This program can draw some graphs and calculate their intersection area. Calculations are implemented in C++ (compiled into webassembly) and UI is a web application.'
               img={Graph}
-              link='/graphs'
+              link='https://wgmlgz.github.io/graphs/'
               badges={badges([HTML_B, CSS_B, JS_B, CPP_B, WASM_B])}
             />
           </div>
