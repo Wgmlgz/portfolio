@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
@@ -8,12 +8,11 @@
 @tailwind utilities;
 
 html * {
-   color: #fff;
-   font-family: "Josefin Sans";
+  color: #fff;
+  font-family: 'Josefin Sans';
 }
 body {
-   background: #181a1f;
-
+  background: #181a1f;
 }
 ::-moz-selection {
   color: #bd93f9;
