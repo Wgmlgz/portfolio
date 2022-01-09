@@ -1,7 +1,4 @@
 import * as React from 'react'
-import GithubLogo from './images/GitHub-Mark-Light-120px-plus.png'
-import TgLogo from './images/TgLogo.png'
-import EmailIcon from './images/email.svg'
 
 interface LinkProps {
   href: string
@@ -26,19 +23,19 @@ const Contacts = () => (
     </p>
     <div>
       <Link
-        logo={GithubLogo}
+        logo='/images/GitHub-Mark-Light-120px-plus.png'
         title='wgmlgz'
         alt='github'
         href='https://github.com/Wgmlgz'
       />
       <Link
-        logo={TgLogo}
+        logo='/images/TgLogo.png'
         title='@wgmlgz'
         alt='telegram'
         href='https://t.me/Wgmlgz'
       />
       <Link
-        logo={EmailIcon}
+        logo='/images/email.svg'
         title='wgmlgz.dev@gmail.comz'
         alt='email'
         href='mailto:wgmlgz.dev@gmail.com'
