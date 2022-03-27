@@ -17,7 +17,7 @@ export const App: FC = () => {
         <div id='frog' className='grid h-screen'>
           <div className='m-auto p-[50px] border-solid border-[5px] rounded-[16px] border-red'>
             <p className='text-center font-bold text-primary text-8xl'>
-              [ Wgmlgz (test) ]
+              [ Wgmlgz ]
             </p>
             <br />
             <p className='text-center text-secondary text-3xl'>
@@ -35,10 +35,11 @@ export const App: FC = () => {
                   [ Who I am? ]
                 </p>
                 <p className='text-center self-center justify-self-center text-4xl'>
-                  I'm a Frontend Developer and primarily working with React,
-                  Material-Ui, Web Assembly and C++. I have great knowledge of
-                  C++ and programming in general, but now now starting with
-                  Frontend development. Truly love programming and frogs🐸.
+                  I am a freelancer and a full-stack web developer (MERN stack).
+                  Have long experience with C++ and algorithms and currently
+                  working on my programming language called zhaba-script. In future I
+                  want to learn more about Rust and make some projects using it.
+                  Truly love programming and frogs🐸.
                 </p>
               </div>
             </div>
@@ -49,7 +50,7 @@ export const App: FC = () => {
                 <p className='text-center font-bold text-secondary text-7xl'>
                   [ Skills ]
                 </p>
-                <div className='text-center'>
+                <div className='flex w-full flex-wrap justify-center'>
                   {makeBadges([
                     'c++',
                     'wasm',
@@ -60,10 +61,14 @@ export const App: FC = () => {
                     'css',
                     'tailwind',
                     'html',
+                    'ts',
                     'js',
-                    'js',
+                    'mongo',
+                    'express',
+                    'node',
                     'c#',
                     'unity',
+                    'py',
                   ])}
                 </div>
               </div>
@@ -80,7 +85,10 @@ export const App: FC = () => {
                     Best projects
                     <br />
                     <img
-                      src={process.env.PUBLIC_URL + '/images/keyboard_arrow_down.svg'}
+                      src={
+                        process.env.PUBLIC_URL +
+                        '/images/keyboard_arrow_down.svg'
+                      }
                       className='h-[70px]'
                       alt='KeyboardArrowDownIcon'
                     />

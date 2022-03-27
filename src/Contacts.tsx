@@ -38,7 +38,7 @@ const Contacts = () => (
       />
       <Link
         logo={process.env.PUBLIC_URL + '/images/email.svg'}
-        title='wgmlgz.dev@gmail.comz'
+        title='wgmlgz.dev@gmail.com'
         alt='email'
         href='mailto:wgmlgz.dev@gmail.com'
       />

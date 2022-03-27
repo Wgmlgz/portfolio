@@ -15,11 +15,11 @@ export let projects = {
   zhaba: {
     title: 'Zhaba script programming language 🐸',
     description:
-      'Zhaba script (Russian: ˈʐabə, жаба(frog)) - is a multi-paradigm, high-level, statically typed programming language, that compiles to C and focuses at minimaizing your code size. It has partial OOP support, including user-created types, member functions and operators overloading, also there is support for generic types such as Vec<T>.',
+      'Zhaba script (Russian: ˈʐabə, жаба(frog)) - is a multi-paradigm, high-level, statically typed, interpreted or source to source compiled language, which focuses at minimizing programs size and maximizing development speed and comfort. There is also a web playground.',
     img: 'FizzBuzz.png',
     githubLink: 'https://github.com/wgmlgz/Zhaba-script',
     webLink: 'https://wgmlgz.github.io/zhaba',
-    badges: ['c++', 'c'],
+    badges: ['c++', 'react', 'mui', 'wasm', 'c'],
   } as IProj,
   warehouse: {
     title: 'Warehouse simulator',
