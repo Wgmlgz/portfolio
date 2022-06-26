@@ -35,7 +35,7 @@ export const App: FC = () => {
                   [ Who I am? ]
                 </p>
                 <p className='text-center self-center justify-self-center text-4xl'>
-                  I am a freelancer and a full-stack web developer (MERN stack).
+                  I am a freelancer and a full-stack web developer.
                   Have long experience with C++ and algorithms and currently
                   working on my programming language called zhaba-script. In future I
                   want to learn more about Rust and make some projects using it.
