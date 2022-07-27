@@ -26,7 +26,7 @@ export let projects = {
     description:
       'This project is a simulation of the warehouse management. Warehouse sells goods to customers and when there are not enough of them, buys needed packages from factory. Some types of products are also have limited lifetime and when long enough time has passed, they are moved to trash. Simulation is written in C++ and compiled into webassembly, UI uses ReactJs and material-ui components.',
     img: 'Warehouse.png',
-    githubLink: 'https://github.com/wgmlgz/warehouse',
+    githubLink: 'https://github.com/Wgmlgz/School/tree/master/Warehouse',
     webLink: 'https://wgmlgz.github.io/Warehouse/',
     badges: ['c++', 'wasm', 'react', 'mui'],
   } as IProj,
@@ -35,7 +35,8 @@ export let projects = {
     description:
       "Learn more about self-balancing binary search trees, such as Red-Black, AVL, Splay or Treap by exploring the visualization of inserting/removing elements from them. Each tree has its unique coloring based on it's type, like gradient of priorities of treap or Red-Black tree colors. Trees are implemented in C++ (compiled into webassembly) and UI is a web application.",
     img: 'Trees.png',
-    githubLink: 'https://github.com/wgmlgz/trees',
+    githubLink:
+      'https://github.com/Wgmlgz/School-projects-2020-2021/tree/master/Forest',
     webLink: 'https://wgmlgz.github.io/trees',
     badges: ['html', 'css', 'js', 'c++', 'wasm'],
   } as IProj,
@@ -54,7 +55,7 @@ export let projects = {
       'Explore different beauteafull fractals such as Mandelbrot set, Burning Ship, or fractal tree. This is a web app written in 1 day with vallina Javascript frontend and C++ backend, compiled to webassembly for best performance.',
     img: 'Mandelbrot.png',
     webLink: 'https://wgmlgz.github.io/fractals/',
-    githubLink: 'https://github.com/wgmlgz/fractals/',
+    githubLink: 'https://github.com/Wgmlgz/School/tree/master/Fractals',
     badges: ['html', 'css', 'js', 'c++', 'wasm'],
   } as IProj,
   planets: {
@@ -63,7 +64,7 @@ export let projects = {
       'View the gravity simulation and play with planets parameters such as mass, velocity and position. Main simulation is written in C (compiled into webassembly) because high-level programming languages are too easy. Frontend is a web app, because why not.',
     img: 'Planets.png',
     webLink: 'https://wgmlgz.github.io/planets/',
-    githubLink: 'https://github.com/wgmlgz/planets/',
+    githubLink: 'https://github.com/Wgmlgz/School/tree/master/PlanetSimulator',
     badges: ['html', 'css', 'js', 'c', 'wasm'],
   } as IProj,
   graphs: {
@@ -72,7 +73,7 @@ export let projects = {
       'This program can draw some graphs and calculate their intersection area. Calculations are implemented in C++ (compiled into webassembly) and UI is a web application.',
     img: 'Graph.png',
     webLink: 'https://wgmlgz.github.io/graphs/',
-    githubLink: 'https://github.com/wgmlgz/graphs/',
+    githubLink: 'https://github.com/Wgmlgz/School/tree/master/GraphPlotter',
     badges: ['html', 'css', 'js', 'c++', 'wasm'],
   } as IProj,
   'wayfarer frog': {
@@ -98,6 +99,6 @@ export let projects = {
       'I have others small projects, but I think that this frog is much nicer.',
     img: 'Frog.jpg',
     wikiLink: 'https://en.wikipedia.org/wiki/Frog',
-    badges: ['c#', 'unity', 'c++'],
+    badges: [],
   } as IProj,
 }
